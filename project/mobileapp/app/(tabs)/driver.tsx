@@ -57,9 +57,9 @@ export default function DriverScreen() {
   const [rideRequests, setRideRequests] = useState<RideRequest[]>(mockRideRequests);
   const [currentRide, setCurrentRide] = useState<RideRequest | null>(null);
   const [earnings, setEarnings] = useState({
-    today: 85,
-    thisWeek: 420,
-    thisMonth: 1680,
+    today: 340000,
+    thisWeek: 1680000,
+    thisMonth: 6720000,
   });
 
   const handleToggleOnline = () => {
@@ -224,21 +224,21 @@ export default function DriverScreen() {
               <View style={styles.earningIcon}>
                 <Zap size={20} color="#10B981" />
               </View>
-              <Text style={styles.earningValue}>${earnings.today}</Text>
+              <Text style={styles.earningValue}>Ar{earnings.today}</Text>
               <Text style={styles.earningLabel}>Today</Text>
             </View>
             <View style={styles.earningCard}>
               <View style={styles.earningIcon}>
                 <TrendingUp size={20} color="#3B82F6" />
               </View>
-              <Text style={styles.earningValue}>${earnings.thisWeek}</Text>
+              <Text style={styles.earningValue}>Ar{earnings.thisWeek}</Text>
               <Text style={styles.earningLabel}>This Week</Text>
             </View>
             <View style={styles.earningCard}>
               <View style={styles.earningIcon}>
                 <DollarSign size={20} color="#F59E0B" />
               </View>
-              <Text style={styles.earningValue}>${earnings.thisMonth}</Text>
+              <Text style={styles.earningValue}>Ar{earnings.thisMonth}</Text>
               <Text style={styles.earningLabel}>This Month</Text>
             </View>
           </View>
