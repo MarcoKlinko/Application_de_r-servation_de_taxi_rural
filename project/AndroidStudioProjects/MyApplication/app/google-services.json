@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "117096065689",
+    "firebase_url": "https://taxiruralapp-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "taxiruralapp",
+    "storage_bucket": "taxiruralapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117096065689:android:eea19446e36c779115a608",
+        "android_client_info": {
+          "package_name": "com.rural.taxi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaD-XXVm3j8-95Y3t-Cr-VSqh-_PcNoWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
